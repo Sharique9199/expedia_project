@@ -1,0 +1,381 @@
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ }
+ #navbar{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    /* border: 1px solid grey; */
+    border-bottom: 1px solid grey;
+    display: flex;
+
+}
+#navbar>img{
+    width: 20%;
+    height: 30px;
+    margin: 30px 0 0 90px;
+    
+}
+#navbar>h2{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: -65px;
+    color: rgba(96, 93, 93, 0.467);
+}
+#selectTag{
+    width: 2%;
+    margin-top: 5px;
+    border: 0px;
+    float: right;
+    
+}
+
+
+.selectInside{
+    font-size: 18px;
+    line-height: 15px;
+}
+.navbarClass{
+    display: flex;
+    margin: auto;
+   
+}
+.navbarClass>p{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    
+}
+.navbarClass>i{
+    margin-top: 25px;
+    padding-left: 25px;
+}
+.navbarClass>p:nth-child(1){
+    margin-top: 15px;
+    
+}
+#header{
+    width: 80%;
+    height: 350px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    
+}
+.headerInsid{
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid grey;
+margin:0 50px;
+
+}
+.headerInsid >p
+{
+    padding: 10px;
+    margin:0 20px;
+}
+
+.headerInsid>p:nth-child(1){
+    margin-top:-11px;
+    
+}
+
+#firstButton{
+    width: 45%;
+    height: 55px;
+    font-size: 20px;
+    margin: -35px 20px -180px 40px;   
+    text-align: start;   
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;    
+ 
+}
+
+
+.secondButton{
+    width: 22%;
+    height: 55px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white; 
+   
+}
+
+
+#thirdButton{
+    width: 22%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 35px;
+    background-color: white;
+    
+
+}
+.iconPic{
+float: left;
+padding: 12px;
+float: left;
+}
+ .check  
+{
+    margin-top:10px; 
+    font-size:10px; 
+    float: left;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.date{
+    font-size: 15px;
+    margin-top: 30px;   
+    margin-right: 150px;   
+} 
+.checkBox{
+    margin-top: 15px;
+    margin-left: 55px;
+    padding: 20px;
+    display: flex;
+    
+}
+.checkElem{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -3px;
+    padding-right: 30px;
+}
+.checkElem2{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.checkBox>label{
+    
+    padding:0 100px 0 0;
+    font-size: 15px;
+    color: grey;
+}
+#mainButton{
+    width: 15%;
+    height: 45px;
+    margin: 20px 0 0 480px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+
+#Box{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("https://a.travel-assets.com/travel-assets-manager/cmct-4862/POSa-HP-Hero-928x398.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#Box>h1{
+    padding-top: 120px;
+    margin-left: 30px;
+    color: white;
+    font-size: 35px;
+}
+#Box>h1+p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+#buttonBox{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 18%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: blue;
+    color: whitesmoke;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+
+h1{
+    margin-left: 147px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+#innerBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+}
+#innerBox > div{
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+
+.fontIcon{
+    float: right;
+    padding-right: 10px;
+}
+.buttonborder
+{
+    border-bottom: 2px solid grey;
+    border-width: 60%;
+    text-align:center;
+}
+
+.targetTrip{
+    margin-left: 10px;
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+}
+h2+p{
+   padding-left: 10px;
+    
+}
+#middleBox{
+    width: 80%;
+    height: 200px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+ #box1{
+    width: 55%;
+    height: 200px;
+    display: flex;
+   
+}
+#box1 > img{
+    width: 100%;
+    height: 200px;
+}
+#box2{
+    width: 45%;
+    height: 200px;
+}
+#box2>img{
+
+padding-left: 10px;
+padding-top: 20px;
+font-weight: 20px;
+
+}
+#box2>img+h2{
+    padding-left:10px ;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#bottomImg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 20px;
+}
+#bottomImg>div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    border-radius: 10px;
+}
+#bottomImg>div>img{
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+}
+img+p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+#bottomImg>div>p+p{
+    margin-top: 4px;
+    font-size: 18px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,auto);
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+    #container>div>img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }p+P{
+        margin-top: -12px;
+    }  
+    #container>div>p+p{
+        color: rgb(9, 7, 7);
+        font-weight: bold;
+     }
+     .lastClass{
+         width: 80%;
+         margin-left: 450px
+     }
+     .lastClass>p{
+         margin-top: 50px;
+         color: black;
+         font-size: 13px;
+         font-weight: bold;
+     }
+     .lastClass>p+h3{
+         color: blue;
+         font-size: 14px;
+         margin-left: 10px;
+     }
+
+
+     [type="date"] {
+        background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+      }
+      [type="date"]::-webkit-inner-spin-button {
+        display: none;
+      }
+      [type="date"]::-webkit-calendar-picker-indicator {
+        opacity: 0;
+      }
+      
+      /* custom styles */
+   
+      input {
+        border: 1px solid #c4c4c4;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 3px 5px;
+        box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+        width: 190px;
+      }
